@@ -41,6 +41,7 @@ See the [Frequently Asked Questions page](./faq.md)
 - [Vuetify](https://vuetifyjs.com/en/)
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Docker](https://www.docker.com/)
+- [TailwindUI](https://tailwindui.com/)
 
 <!-- CONTRIBUTING -->
 
