@@ -178,6 +178,8 @@ class IngredientFoodModel(SqlAlchemyBase, BaseMixins):
     name_normalized: Mapped[str | None] = mapped_column(sa.String, index=True)
     plural_name_normalized: Mapped[str | None] = mapped_column(sa.String, index=True)
 
+    wikidata_identifier: Mapped[str | None] = mapped_column(sa.String, index=True)
+
     model_config = ConfigDict(
         exclude={
             "households_with_ingredient_food",
